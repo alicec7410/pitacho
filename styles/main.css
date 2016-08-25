@@ -1,0 +1,189 @@
+/*import google font*/
+@import 'https://fonts.googleapis.com/css?family=Roboto:300';
+/*import social media icon font*/
+@import url('http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css');
+
+* {
+    font-family: 'Roboto', Arial, sans-serif;
+    word-spacing: 1.6px;
+    letter-spacing: 1px;
+    color: #1A5276;
+}
+
+body {
+    padding: 80px 0 0 0;
+    margin: 0;
+    transition: 2s;
+}
+
+/*menu*/
+.navbar-simple{
+    background-color:#1A5276;
+}
+.navbar-simple a {
+    color: #fff;
+    font-size: 22px;
+    margin: auto 10px;
+}
+.navbar-simple a:hover {
+    color: #1A5276;
+}
+
+.open {
+    padding: 200px 0 0 0;
+    transition: 0.5s;
+}
+.navbar-toggle {
+    background: #fff;
+}
+
+.navbar-toggle span{
+    background: #1A5276;
+}
+li a:visited{
+  transition: 2s;
+}
+
+/*banner: text area*/
+.col-sm-6 {
+  background: pink;
+}
+.pic{
+  margin: 0 auto;
+  width: 250px;
+}
+.intro h3 {
+    font-size: 20px
+}
+
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+/*social media icons*/
+#social-text {
+    line-height: 30px;
+}
+#social-text, smGlobalBtn {
+    display:inline;
+}
+.smGlobalBtn {
+  display: inline-block;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+    margin: 0 4px;
+}
+.ghBtn {
+  background: #767676;
+}
+.ghBtn:before {
+  font-family: "FontAwesome";
+  content: "\f09b";
+}
+.ghBtn:hover {
+  color: #767676;
+  background: #fff;
+}
+
+.lkBtn {
+  background: #0094BC;
+}
+
+.lkBtn:before {
+  font-family: "FontAwesome";
+  content: "\f0e1";
+}
+.lkBtn:hover {
+  color: #0094BC;
+  background: #fff;
+}
+/*sections
+.section {
+    text-align: center;
+    width: 900px;
+    margin: 40px auto;
+    color: #154360;
+}*/
+.section h1 {
+    font-size: 30px;
+    border-bottom: solid 1px #616A6B;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.section h2{
+    font-size: 22px;
+}
+
+#about p {
+    margin: 20px;
+}
+#contact h3 {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#work p {
+    font-size: 14px;
+}
+
+#about, #work,#contact {
+   text-align: center;
+    margin: 10px auto;
+    padding: 70px 0 0 0;
+    transition: all 2s ease-in-out;
+}
+.section-text .col-md-4 {
+    height: auto;
+}
+.section-text .col-md-4 p {
+   margin: 15px auto;
+    font-weight: 800;
+}
+.section-text .col-md-4 img {
+    width: 100%;
+    height: auto;
+}
+/*footer*/
+footer {
+    width: 100%;
+    height: 100px;
+}
+
+
+/*different devices*/
+    @media only screen and (max-width: 320px) {
+        /*text*/
+        .intro h1 {
+	font-size: 26px;
+            line-height: 30px;
+}
+        .intro h3 {
+	font-size: 16px;
+            line-height: 20px;
+}
+        .smGlobalBtn{
+             width: 30px;
+  height: 30px;
+            font-size: 15px;
+            margin: 0 2px;
+        }
+        .section h1 {
+            font-size: 24px;
+        }
+        .section h3{
+    font-size: 18px;
+            line-height: 26px;
+}
+    }
