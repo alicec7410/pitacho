@@ -26,7 +26,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="styles/main.css">
 
     <!--jQuery-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -50,44 +50,36 @@
     <!--changes that need implementation-->
 
 <!--add a bootstrap site container-->
+<div class="container-fluid banner">
     <nav class="navbar navbar-simple navbar-fixed-top">
-        <div class="container-fluid">
+        <!--<div class="container-fluid">-->
         <!-- Brand and toggle get grouped for better mobile display -->
-           <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"> &nbsp Alice Chen</a>
-    </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#about">About <span class="sr-only">(current)</span></a></li>
-        <li><a href="#work">Work</a></li>
-          <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-    <div class="container-fluid banner">
-            <div class="col-sm-6">
-			     <img class="img-responsive img-circle pic" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAigAAAAJDczMjg5ZjAxLTRhZGMtNGZmYy05MzZlLTc5MWJhNWJmNjhkOA.jpg">
-           </div>
-            <div class="col-sm-6 intro">
-                <h1>Alice Chen</h1>
-                <h3>My name is Alice Chen. I am a web design student in Baruch College, CUNY. You can find me all over places like Free Code Camp, Codepen, Medium etc.</h3>
-                <div class="social-media">
-                    <p id="social-text">Don't forget check out: </p>
-                    <a class="lkBtn smGlobalBtn" href="https://www.linkedin.com/in/tianhui-alice-chen-07867492"></a>
-        		  <a class="ghBtn smGlobalBtn" href="https://github.com/alicec7410"></a>
-                </div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"> &nbsp Alice Chen</a>
         </div>
-    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#about">About <span class="sr-only">(current)</span></a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+  <!--</div--><!-- /.container-fluid -->
+
+      <h1>Collect the dots</h1>
+    
+</nav>
+</div>
+
+
         <div class="container-fluid section" id="about">
         <h1>About <i class="fa fa-user" aria-hidden="true"></i></h1>
         <div class="section-text">
@@ -156,5 +148,10 @@
     </script>
 
 </body>
-<footer></footer>
+<footer>
+  <div class="social-media">
+      <a class="lkBtn smGlobalBtn" href="https://www.linkedin.com/in/tianhui-alice-chen-07867492"></a>
+      <a class="ghBtn smGlobalBtn" href="https://github.com/alicec7410"></a>
+  </div>
+  </div></footer>
 </html>
