@@ -193,17 +193,17 @@ align-self: center;
 }
 
 #template1 {
-  background-image: url('http://www.pitacho.com/img/biz1.png');
+  background-image: url('http://www.pitacho.com/images/biz1.png');
   background-position: center;
   background-size: 100%;
 }
 #template2 {
-  background-image: url('http://www.pitacho.com/img/email1.png');
+  background-image: url('http://www.pitacho.com/images/email1.png');
   background-position: center;
   background-size: 100%;
 }
 #template3 {
-  background-image: url('http://www.pitacho.com/img/email2.png');
+  background-image: url('http://www.pitacho.com/images/email2.png');
   background-position: center;
   background-size: 100%;
 }
