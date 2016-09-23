@@ -247,6 +247,16 @@ canvas {
   color: #fff;
 }
 
+#pano {
+
+  margin: 100px auto;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 300px;
+  overflow: hidden;
+}
+
 #contact p {
   margin: 30px 0;
   font-size: 16px;

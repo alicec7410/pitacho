@@ -125,6 +125,62 @@
         </div>
       </div>
 
+      <div class="container-fluid section" id="photo">
+        <h1>360 Photo</h1>
+        <div class="col-md-10">
+          <div id="pano"></div>
+
+          <div id="sceneList">
+            <ul class="scenes">
+
+                <a href="#" class="scene" data-id="0-496183314095083">
+                  <li class="text">496183314.095083</li>
+                </a>
+
+            </ul>
+          </div>
+
+          <div id="titleBar">
+            <h1 class="sceneName"></h1>
+          </div>
+
+          <a href="#" id="autorotateToggle">
+            <img class="icon off" src="images/play.png">
+            <img class="icon on" src="images/pause.png">
+          </a>
+
+          <a href="#" id="fullscreenToggle">
+            <img class="icon off" src="images/fullscreen.png">
+            <img class="icon on" src="images/windowed.png">
+          </a>
+
+          <a href="#" id="sceneListToggle">
+            <img class="icon off" src="images/expand.png">
+            <img class="icon on" src="images/collapse.png">
+          </a>
+
+          <a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
+            <img class="icon" src="images/up.png">
+          </a>
+          <a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
+            <img class="icon" src="images/down.png">
+          </a>
+          <a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
+            <img class="icon" src="images/left.png">
+          </a>
+          <a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
+            <img class="icon" src="images/right.png">
+          </a>
+          <a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
+            <img class="icon" src="images/plus.png">
+          </a>
+          <a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
+            <img class="icon" src="images/minus.png">
+          </a>
+
+        </div>
+      </div>
+
     <div class="container-fluid section" id="contact">
         <h1>About & Contact<i class="fa fa-envelope" aria-hidden="true"></i></h1>
         <p>A web designer & front-end developer who loves good food, coffee (no starbucks plz) & funny Youtube videos.</p>
@@ -147,6 +203,17 @@
 
     <!--main.js-->
     <script src="scripts/main.js"></script>
+
+    <!--360 viewer js-->
+    <script src="scripts/es5-shim.js"></script>
+    <script src="scripts/eventShim.js"></script>
+    <script src="scripts/classList.js"></script>
+    <script src="scripts/requestAnimationFrame.js" ></script>
+    <script src="scripts/screenfull.min.js" ></script>
+    <script src="scripts/bowser.min.js" ></script>
+    <script src="scripts/marzipano.js" ></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/index.js"></script>
 
     <!--Menu animation-->
     <script>$(document).ready(function(){
