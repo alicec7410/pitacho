@@ -31,6 +31,7 @@ var APP_DATA = {
       "linkHotspots": [],
       "infoHotspots": []
     }
+    
   ],
   "name": "Project Title",
   "settings": {
