@@ -248,13 +248,20 @@ canvas {
 }
 
 #pano {
-
-  margin: 100px auto;
+  padding: 0;
+  margin: 0 auto;
   top: 0;
   left: 0;
-  width: 70%;
+  width: 80%;
   height: 300px;
   overflow: hidden;
+
+}
+#pano canvas {
+  padding: 0;
+   margin: auto;
+   display: block;
+   width: 80%;
 }
 
 #contact p {
