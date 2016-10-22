@@ -7,18 +7,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Pitacho is a portfolio website featuring Alice Chen's design work in website, data visualizaiton and other areas."/>
+    <meta name="keywords" content="web design,web designer,data visualization,design,web development"/>
+    <meta name="robots" content="index" />
 
-    <!--add a og: image later-->
+    <!--og: image later-->
     <meta property="og:site_name" content="Pitacho"/>
     <meta property="og:title" content="Pitacho"/>
     <meta name="og:description" content="Pitacho is a portfolio website featuring Alice Chen's design work in website, data visualizaiton and other areas."/>
     <meta property="og:url" content="http://www.pitacho.com/"/>
     <meta property="og:type" content="website">
-
-
-    <meta name="description" content="Pitacho is a portfolio website featuring Alice Chen's design work in website, data visualizaiton and other areas."/>
-    <meta name="keywords" content="web design,web designer,data visualization,design,web development"/>
-    <meta name="robots" content="index" />
 
     <!--icon-->
     <link rel="icon" type="image/png" href="../images/logo.png" />
@@ -26,8 +24,8 @@
     <!--CSS-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
 
     <!--Google Analytics-->
     <script>
@@ -41,14 +39,16 @@
     </script>
 </head>
 
+
 <body>
 
-
-    <!--add a bootstrap site container-->
+    <!--bootstrap site container-->
     <div class="container-fluid banner">
+
+
       <nav class="navbar navbar-simple navbar-fixed-top">
-        <!--<div class="container-fluid">-->
-        <!-- Brand and toggle get grouped for better mobile display -->
+
+        <!--For mobile view -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -56,25 +56,32 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"> &nbsp Alice Chen</a>
+
+        </div>
+
+        <div id="logo">
+
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="#skill">Skills <span class="sr-only">(current)</span></a></li>
-          <li><a href="#work">Work</a></li>
+        <!--div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"-->
+        <ul class="nav navbar-nav" id="menutab">
+          <li><a href="#skill">Projects <span class="sr-only">(current)</span></a></li>
           <li><a href="#contact">About & Contact</a></li>
         </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
+
+      <!--80% wide div for the webgl ani-->
       <div class="bannertext" id="frame">
         <div class="text">
         <h1>Collect the dots</h1>
-        <p>Accelerating | Responsive | Immense</p>
+        <p>Multi-discipline designer & creator</p>
+        </div>
       </div>
-      </div>
+
     </div>
 
+<!--
     <div class="container-fluid section" id="skill">
       <h1>Skills<i class="fa fa-user" aria-hidden="true"></i></h1>
       <div class="col-md-6">
@@ -130,8 +137,6 @@
         <iframe width="100%" height="500px" scrolling="no" allowfullscreen
               src="../images/brooklyn_bridge.jpg"></iframe>
 
-
-
       </div>
 
     <div class="container-fluid section" id="contact">
@@ -144,7 +149,7 @@
           <a class="ghBtn smGlobalBtn" href="https://github.com/alicec7410"></a>
         </div>
     </div>
-
+-->
     <!--jQuery-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!--bootstrap jQuery-->
@@ -183,9 +188,6 @@
             }
         });
     </script>
-<footer>
-
-</footer>
 </body>
 
 </html>

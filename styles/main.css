@@ -3,6 +3,8 @@
 /*import social media icon font*/
 @import url('http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css');
 
+
+/*PC View*/
 * {
     font-family: 'Open Sans', Arial, sans-serif;
     word-spacing: 1.6px;
@@ -13,21 +15,55 @@ body {
     padding: 0;
     margin: 0;
     transition: 0.5s;
+}
 
+/*Site Container*/
+.container-fluid {
+    padding: 0px;
+    margin: 0px;
+}
+.banner {
+  width: 100%;
+  height:100%;
+  display: flex;
+  justify-content: center;
 }
 
 /*menu*/
+#logo {
+  height: 100%;
+  width: 100px;
+  background-image: url('http://www.pitacho.com/images/logo.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  float: left;
+  margin-left: 100px;
+  margin-top: 30px;
+}
 nav {
   margin: 0;
   padding: 0;
-  background: black;
+  height: 15%;
+}
+#menutab {
+  float: right;
+  height: 100%;
+  margin-right: 100px;
 }
 
+ul li {
+  height: 100%;
+}
+#menutab a {
+  height: 100%;
+  padding-top: 50px;
+}
 .navbar-simple a {
     color: #fff;
     font-size: 22px;
-    margin: auto 10px;
+    margin-left: 10px;
     font-weight: bold;
+    height: 100%;
 }
 .navbar-simple a:hover {
     color: black;
@@ -52,14 +88,7 @@ li a:visited{
 }
 
 /*banner: text area*/
-.banner {
-  width: 100%;
-  height:600px;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
+
 canvas {
   width: 100%;
   height:200px;
@@ -69,7 +98,7 @@ canvas {
 
 .bannertext {
   width: 100%;
-  height: 600px;
+  height: 80%;
   padding: 0;
   margin: 0;
   align-self: center;
@@ -102,10 +131,6 @@ canvas {
   vertical-align: middle;
 }
 
-.container-fluid {
-    padding: 0px;
-    margin: 0px;
-}
 /*social media icons*/
 .smGlobalBtn {
   display: inline-block;
@@ -275,7 +300,7 @@ footer {
 }
 
 
-/*different devices*/
+/*Mobile View*/
     @media only screen and (max-width: 320px) {
         /*text*/
         .intro h1 {
@@ -299,4 +324,6 @@ footer {
     font-size: 18px;
             line-height: 26px;
 }
+
+/*Tablet View*/
     }
