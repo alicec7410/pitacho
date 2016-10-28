@@ -44,7 +44,11 @@ nav {
   margin: 0;
   padding: 0;
   height: 15%;
+  @media screen and (max-width: 320px) {
+    height: 60px;
+  }
 }
+
 #menutab {
   float: right;
   height: 100%;
@@ -301,29 +305,39 @@ footer {
 
 
 /*Mobile View*/
-    @media only screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
+
+    nav {
+        margin: 0;
+        padding: 0;
+        height: 10%;
+      }
         /*text*/
-        .intro h1 {
-	font-size: 26px;
-            line-height: 30px;
+    .intro h1 {
+	      font-size: 26px;
+        line-height: 30px;
 }
-        .intro h3 {
-	font-size: 16px;
-            line-height: 20px;
+
+    .intro h3 {
+	     font-size: 16px;
+      line-height: 20px;
 }
-        .smGlobalBtn{
-             width: 30px;
-  height: 30px;
-            font-size: 15px;
-            margin: 0 2px;
-        }
-        .section h1 {
-            font-size: 24px;
-        }
-        .section h3{
+
+    .smGlobalBtn {
+      width: 30px;
+    height: 30px;
+    font-size: 15px;
+    margin: 0 2px;
+    }
+
+    .section h1 {
+    font-size: 24px;
+    }
+
+    .section h3{
     font-size: 18px;
-            line-height: 26px;
+    line-height: 26px;
 }
 
 /*Tablet View*/
-    }
+}
