@@ -57,6 +57,7 @@ nav {
 
 ul li {
   height: 100%;
+  margin: 20px;
 }
 #menutab a {
   height: 100%;
@@ -65,15 +66,14 @@ ul li {
 .navbar-simple a {
     color: #fff;
     font-size: 22px;
-    margin-left: 10px;
+
     font-weight: bold;
     height: 100%;
 }
-.navbar-simple a:hover {
-    color: black;
-    font-weight: bold;
-}
 
+.navbar-simple h3:hover {
+  color: white;
+}
 .open {
     padding: 160px 0 0 0;
     transition: 0.5s;
@@ -89,6 +89,8 @@ ul li {
 }
 li a:visited{
   transition: 2s;
+  background: white;
+
 }
 
 /*banner: text area*/
@@ -113,8 +115,8 @@ canvas {
   position: absolute;
   left: 0;
   right:0;
-  top:50%;
-  bottom:50%;
+  top:40%;
+
   vertical-align:
 }
 .text h1{
@@ -306,38 +308,26 @@ footer {
 
 /*Mobile View*/
 @media screen and (max-width: 320px) {
-
     nav {
         margin: 0;
         padding: 0;
-        height: 10%;
+        height: 8%;
       }
-        /*text*/
-    .intro h1 {
-	      font-size: 26px;
-        line-height: 30px;
-}
-
-    .intro h3 {
-	     font-size: 16px;
-      line-height: 20px;
-}
-
-    .smGlobalBtn {
-      width: 30px;
-    height: 30px;
-    font-size: 15px;
-    margin: 0 2px;
+      #logo {
+        display: none;
+      }
+      #menutab {
+        width: 200px;
+        margin: 0 auto;
+        float: none;
+      }
+      #menutab a {
+        color: black;
+      }
+      ul li {
+        margin: 10px 0;
+      }
+      .text {
+        top: 30%;
+      }
     }
-
-    .section h1 {
-    font-size: 24px;
-    }
-
-    .section h3{
-    font-size: 18px;
-    line-height: 26px;
-}
-
-/*Tablet View*/
-}
