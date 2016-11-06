@@ -13,7 +13,6 @@
 
 body {
     padding: 0;
-    margin: 0;
     transition: 0.5s;
 }
 
@@ -21,13 +20,12 @@ body {
 .container-fluid {
     padding: 0px;
     margin: 0px;
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
 }
-.banner {
-  width: 100%;
-  height:100%;
-  display: flex;
-  justify-content: center;
-}
+
 
 /*menu*/
 #logo {
@@ -40,13 +38,15 @@ body {
   margin-left: 100px;
   margin-top: 30px;
 }
-nav {
+
+.navbar {
   margin: 0;
   padding: 0;
   height: 15%;
-  @media screen and (max-width: 320px) {
-    height: 60px;
-  }
+
+}
+#bs-example-navbar-collapse-1 {
+  max-height: 100%;
 }
 
 #menutab {
@@ -66,7 +66,6 @@ ul li {
 .navbar-simple a {
     color: #fff;
     font-size: 22px;
-
     font-weight: bold;
     height: 100%;
 }
@@ -75,7 +74,7 @@ ul li {
   color: white;
 }
 .open {
-    padding: 160px 0 0 0;
+    padding: 150px 0 0 0;
     transition: 0.5s;
 }
 .navbar-toggle {
@@ -137,168 +136,42 @@ canvas {
   vertical-align: middle;
 }
 
-/*social media icons*/
-.smGlobalBtn {
-  display: inline-block;
-  cursor: pointer;
-  width: 40px;
-  height: 40px;
-  padding: 0px;
-  text-decoration: none;
-  text-align: center;
-  color: #fff;
-  font-size: 20px;
-  font-weight: normal;
-  line-height: 2em;
-  border-radius: 20px;
-  -moz-border-radius: 20px;
-  -webkit-border-radius: 20px;
-    margin: 0 4px;
-}
-.mBtn {
-  background: #E74C3C;
-}
-.mBtn:before {
-  font-family: "FontAwesome";
-  content: "\f003";
-}
-.mBtn:hover {
-  color: #E74C3C;
-  background: #fff;
-}
-.ghBtn {
-  background: #767676;
-}
-.ghBtn:before {
-  font-family: "FontAwesome";
-  content: "\f09b";
-}
-.ghBtn:hover {
-  color: #767676;
-  background: #fff;
+/*project page*/
+#bs-example-navbar-collapse-2 a{
+  color: black;
 }
 
-.lkBtn {
-  background: #0094BC;
-}
-
-.lkBtn:before {
-  font-family: "FontAwesome";
-  content: "\f0e1";
-}
-.lkBtn:hover {
-  color: #0094BC;
-  background: #fff;
-}
-
-/*sections*/
-.section {
-    text-align: center;
-    margin: 40px auto;
-    color: black;
-    padding: 20px 0;
-}
-.section i {
-  margin-left: 8px;
-}
-.section h1 {
-    font-size: 26px;
-    line-height: 40px;
-    font-weight: bold;
-    word-spacing: 6px;
-    letter-spacing: 4px;
-    border-bottom: solid 1px #616A6B;
-    width: 28%;
-    margin: 0 auto;
-    background: black;
-    color: #fff;
-    height: 40px;
-}
-
-.section h3{
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-.section h4 {
-  font-size: 18px;
-}
-.col-md-4 img {
-  max-width: 100%;
-  max-height: 100%;
-}
-.col-md-4 .box {
-  width: 100%;
-  height: 200px;
-  background: black;
-  opacity: 0.8;
-  margin-top: 10px;
-  color: #fff;
-  overflow: visible;
-  display: flex;
-  justify-content: center;
-}
-.col-md-4 .box p {
-  align-self: center;
-}
-
-#template1 {
-  background-image: url('http://www.pitacho.com/images/biz1.png');
-  background-position: center;
-  background-size: 100%;
-}
-#template2 {
-  background-image: url('http://www.pitacho.com/images/email1.png');
-  background-position: center;
-  background-size: 100%;
-}
-#template3 {
-  background-image: url('http://www.pitacho.com/images/email2.png');
-  background-position: center;
-  background-size: 100%;
-}
-.boxcover {
-  background-color: black;
-  opacity: 0.8;
-  z-index: 999;
+.content {
+  margin: 0;
+  padding-top: 100px;
   width: 100%;
   height: 100%;
-  display: flex;
-  justify-content: center;
-}
-.box:hover .boxcover{
-  opacity: 0;
-  transition: 1s;
-}
-.boxcover p {
-  font-size: 14px;
-  align-self: center;
-}
-.boxcover p a{
-  text-decoration: none;
-  color: #fff;
 }
 
-#pano {
-  padding: 0;
-  margin: 0 auto;
-  top: 0;
-  left: 0;
-  width: 80%;
-  height: 500px;
-  overflow: hidden;
-
-}
-#pano canvas {
-  padding: 0;
-   margin: auto;
-   display: block;
-   width: 80%;
+.banner {
+  background-color: #CDE591;
+  width: 100%;
+  height: 100px;
 }
 
-#contact p {
-  margin: 30px 0;
-  font-size: 16px;
+.row{
+  background-color: #F1BB88;
+  display: block;
+  width: 100%;
+  height: 15%;
 }
+
+.col-md-4 {
+  background-color: #8895F1 ;
+  display: block;
+
+}
+
+.col-md-8 {
+  background-color: #F188DB ;
+  display: block;
+}
+
 /*footer*/
 footer {
     width: 100%;
@@ -326,6 +199,10 @@ footer {
       }
       ul li {
         margin: 0 auto;
+        padding: 0;
+      }
+      ul li h3{
+        margin: 10px auto;
       }
       .text {
         top: 30%;
